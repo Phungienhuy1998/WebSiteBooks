@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+}
+
+.wrap-suggestion {
+  z-index: 9;
+  position: absolute;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,939 @@
+{
+  "SPP": [
+    {
+      "id": 1,
+      "Bookname": "LẬP TRÌNH VÀ CUỘC SỐNG",
+      "NamXB": "2018",
+      "IDTheLoai": "1",
+      "Author": "Jeff Atwood",
+      "Detail": "Jeff Atwood bắt đầu viết blog Coding Horror vào năm 2004, và tin rằng nó đã làm thay đổi cuộc đời của mình. Anh cần một cách để theo dõi sự phát triển của phần mềm theo thời gian-bất cứ điều gì anh ta nghĩ đến hoặc làm việc trên nó. Jeff đã nghiên cứu các chủ đề mà anh cảm thấy thú vị, sau đó ghi lại nghiên cứu của mình bằng một bài đăng trên blog mà anh có thể dễ dàng tìm lại và tham khải sau này. Theo thời gian, ngày càng có nhiều độc giả truy cập blog tìm thấy các bài viết hữu ích, liên quanvaf thú vị. Hiện nay, có khoảng 100.000 độc giả truy cập blog mỗi ngày cũng rất nhiều bình luận và tương tác trên web đó.",
+      "Image": "assets/Image/LapTrinhVaCuocSong.jpg",
+      "Price": "120000",
+      "TheLoai": "Sách Tin Học"
+    },
+    {
+      "id": 2,
+      "Bookname": "TIN HỌC VĂN PHÒNG",
+      "NamXB": 2015,
+      "IDTheLoai": "1",
+      "Author": "Hà Thành, Trí Việt",
+      "Detail": "Cuốn sách trình bày các kiến thức cơ bản về Hệ điều hành Windows XP, Microsoft Office 2003, về ứng dụng Internet, nhằm giúp người học trang bị nhanh nhất các kiến thức về tin học văn phòng.",
+      "Image": "assets/Image/HocNhanhTinHocVanPhong.jpg",
+      "Price": 32000,
+      "TheLoai": "Sách Tin Học"
+    },
+    {
+      "id": 3,
+      "Bookname": "PHÒNG CHỐNG HACKER",
+      "NamXB": 2016,
+      "IDTheLoai": "1",
+      "Author": "Mikhaylov Dmitry",
+      "Detail": "Gần đây người ta thường nói đến hacker (hiểu theo nghĩa tiêu cực là tin tặc), đến sự nguy hiểm của những cuộc tấn công mạng. Nhưng nhiều người trong số chúng ta vẫn cho rằng, mối đe dọa này chẳng mấy liên quan đến thường dân. Thực tế lại không như vậy. Hầu như tất cả các công trình công nghiệp hiện nay đều đã được tự động hóa, ứng dụng công nghệ thông tin (CNTT), trong đó có những công trình đặc biệt quan trọng đối với một quốc gia như chế biến dầu khí, nhà máy điện, cảng hàng không... Cuốn sách này đề cập đến một vấn đề quan trọng: an ninh của các công trình công nghiệp tối quan trọng, và cũng là an ninh của quốc gia nói chung.",
+      "Image": "assets/Image/HiemHoaHacker.jpg",
+      "Price": 80000,
+      "TheLoai": "Sách Tin Học"
+    },
+    {
+      "id": 4,
+      "Bookname": "IOT VỚI ARDUINO",
+      "NamXB": 2017,
+      "IDTheLoai": "1",
+      "Author": "KS. Phạm Quang Huy, TS. Lê Mỹ Hà",
+      "Detail": "Arduino là dự án nguồn mở làm việc dựa trên bo mạch điện tử (Kit), bao gồm một vi điều khiển, với các đầu vào/đầu ra, một ngôn ngữ lập trình, và một IDE (trình soạn thảo trong môi trường phát triển tích hợp). Arduino là một công cụ để thực hiện các ứng dụng tương tác độc lập hoặc có thể được kết nối với phần mềm trên máy tính của bạn (chẳng hạn như Flash, Processing, VVVV, hoặc Max/MSP).",
+      "Image": "assets/Image/LapTrinhIoT.jpg",
+      "Price": 106000,
+      "TheLoai": "Sách Tin Học"
+    },
+    {
+      "id": 5,
+      "Bookname": " THƯƠNG MẠI ĐIỆN TỬ",
+      "NamXB": 2014,
+      "IDTheLoai": "1",
+      "Author": "Nguyễn Văn Hùng",
+      "Detail": ".",
+      "Image": "assets/Image/ThuongMaiDienTu.jpg",
+      "Price": 148000,
+      "TheLoai": "Sách Tin Học"
+    },
+    {
+      "id": 6,
+      "Bookname": "HỌC NHANH TIN HỌC",
+      "NamXB": 2011,
+      "IDTheLoai": "1",
+      "Author": "Trí Việt, Hà Thành",
+      "Detail": "Tự Học Nhanh Tin Học Cho Người Mới Bắt Đầu Cuốn sách được biên soạn nhằm mục đích cung cấp cho người đọc những chương trình sử dụng trên máy tính.",
+      "Image": "assets/Image/TuHocNhanhTinHoc.jpg",
+      "Price": 50000,
+      "TheLoai": "Sách Tin Học"
+    },
+    {
+      "id": 7,
+      "Bookname": "PHOTOSHOP (TẬP 1)",
+      "NamXB": 2013,
+      "IDTheLoai": "1",
+      "Author": "Nhiều Tác Giả",
+      "Detail": "Theo thời gian, Photoshop đã tiến bộ rất nhiều từ một trình chỉnh sửa ảnh đơn giản đến trở thành một phần mềm xử lý hình ảnh mạnh mẽ và thông dụng. Được phát triển trên cả hai hệ máy Macintosh và PC, Photoshop được tất cả những nhà sáng tạo nghệ thuật ưa chuộng và sử dụng rộng rãi, hầu như mọi hình ảnh bạn thấy hàng ngày (áp phích, bìa sách, hình ảnh tạp chí, quảng cáo…) đều được tạo ra và chỉnh sửa bằng Photoshop.",
+      "Image": "assets/Image/photoshop1.jpg",
+      "Price": 58000,
+      "TheLoai": "Sách Tin Học"
+    },
+    {
+      "id": 8,
+      "Bookname": " AUTOCAD 2017",
+      "NamXB": 2016,
+      "IDTheLoai": "1",
+      "Author": "Văn Lang (bs)",
+      "Detail": "Sách gồm các phần chính: Khảo sát giao diện AutoCad 2017, Tạo bản vẽ đầu tiên, Thiết lập và sử dụng các công cụ soạn thảo, Tổ chức đối tượng với các khối và nhóm ,...",
+      "Image": "assets/Image/AutoCAD.jpg",
+      "Price": 76000,
+      "TheLoai": "Sách Tin Học"
+    },
+    {
+      "id": 9,
+      "Bookname": "ÁM DẠ HÀNH",
+      "NamXB": 2018,
+      "IDTheLoai": "2",
+      "Author": "Nhạc Dũng",
+      "Detail": "Dưới sự dẫn dắt của tổ trưởng Tần Hán Xuyên, tổ trọng án số 2 đi sâu vào điều tra nhưng mãi chưa tìm ra hung thủ. Cùng lúc, thám tử tư trẻ tuổi Kim Nhất Điền lại phát hiện ra manh mối quan trọng, chĩa mũi nhọn về phía nội bộ cảnh sát, và khơi lại một câu chuyện quá khứ đau lòng…",
+      "Image": "assets/Image/AmDaHanh.jpg",
+      "Price": 120000,
+      "TheLoai": "Sách Văn Học"
+    },
+    {
+      "id": 10,
+      "Bookname": "KẺ TRỘM SÁCH ",
+      "NamXB": 2018,
+      "IDTheLoai": "2",
+      "Author": "Markus Zusak",
+      "Detail": "Kẻ Trộm Sách được viết nên bằng một văn phong đặc biệt, lôi cuốn. Sự thành công của Kẻ Trộm Sách còn nằm ở tài năng khắc họa nhân vật của Zusak - ông đã thổi một luồng sinh khí vô cùng mạnh mẽ vào từng nhân vật, khiến cho họ – tuy chỉ được biết đến qua những con chữ trên mặt giấy – vẫn sống động và đầy cá tính, vẫn khiến người đọc phải đau nỗi đau của họ, vui niềm vui của họ, và hồi hộp theo dõi câu chuyện cuộc đời họ cho đến tận trang sách cuối cùng.",
+      "Image": "assets/Image/KeTromSach.jpg",
+      "Price": 148000,
+      "TheLoai": "Sách Văn Học"
+    },
+    {
+      "id": 11,
+      "Bookname": "SÁCH LẦN CUỐI EM YÊU ANH",
+      "NamXB": 2018,
+      "IDTheLoai": "2",
+      "Author": "Hàn Khải My",
+      "Detail": "Lần Cuối Em Yêu Anh, cuốn sách dành cho những trái tim đang còn phân vân giữa sai và đúng, nên hay không nên, dừng lại hay tiếp tục. Với những cảm xúc chân thật nhất, nữ tác giả trẻ Hàn Khải My sẽ khiến cho bạn đọc thêm hiểu trái tim và có những lựa chọn đúng đắn nhất cho bản thân mình trong chuyện tình cảm.....",
+      "Image": "assets/Image/LanCuoiEmYeuAnh.jpg",
+      "Price": 68000,
+      "TheLoai": "Sách Văn Học"
+    },
+    {
+      "id": 12,
+      "Bookname": "LỜI CHIA TAY ĐẸP NHẤT THẾ GIAN",
+      "NamXB": 2018,
+      "IDTheLoai": "2",
+      "Author": "Noh Hee Kyung",
+      "Detail": "Lời Chia Tay Đẹp Nhất Thế Gian cũng chính là lời tri ân cuối cùng mà tác giả gửi đến người mẹ quá cố của mình, là bài ca viết dâng tặng người kính yêu.",
+      "Image": "assets/Image/LoiChiaTayDepNhatTheGian.jpg",
+      "Price": 148000,
+      "TheLoai": "Sách Văn Học"
+    },
+    {
+      "id": 13,
+      "Bookname": "CHIẾC THANG CAO MÀU XANH",
+      "NamXB": 2018,
+      "IDTheLoai": "2",
+      "Author": "Gong Ji Young",
+      "Detail": "Chiếc Thang Cao Màu Xanh khiến người đọc cảm thấy thỏa mãn cả về thông tin cũng như về tiết tấu cảm xúc của nhân vật trong truyện. Nhà xuất bản Phụ nữ xin trân trọng giới thiệu đến quý độc giả cuốn tiểu thuyết này, hi vọng mỗi độc giả sau khi đọc xong sẽ tự tìm được câu trả lời cho câu hỏi luôn ám ảnh chúng ta suốt cuộc đời: “Con người ta vì sao mà tồn tại? Nỗi thống khổ vì đâu mà có? Và tình yêu rốt cuộc là gì?”",
+      "Image": "assets/Image/ChiecThangCaoMauXanh.jpg",
+      "Price": 87000,
+      "TheLoai": "Sách Văn Học"
+    },
+    {
+      "id": 14,
+      "Bookname": "NHỮNG GÓC NHÌN ĐỜI - TÔI THẤY, NGHE VÀ NGHĨ",
+      "NamXB": 2018,
+      "IDTheLoai": "2",
+      "Author": "Phan Đăng",
+      "Detail": "Bỏ qua những giấc mơ là bỏ qua một phần vô cùng lý thú của cuộc sống. Là bỏ qua một món quà lớn mà thượng đế đã ban tặng cho mình. Vẫn biết cuộc sống này càng hối hả và áp lực. Nhưng mỗi buổi sáng tỉnh giấc, hãy bỏ ra chỉ vài phút thôi để cố kiểm nghiệm lại những gì mà giấc mơ đem đến. Có thể lúc đầu bạn sẽ không nhớ gì cả, nhưng một lần, hai lần, ba lần… rồi bạn sẽ thấy mình đã được chạm vào những điều kỳ diệu khủng khiếp như thế nào.",
+      "Image": "assets/Image/NhungGocNhinDoi.jpg",
+      "Price": 84000,
+      "TheLoai": "Sách Văn Học"
+    },
+    {
+      "id": 15,
+      "Bookname": "KHÓI UN CHIỀU",
+      "NamXB": 2018,
+      "IDTheLoai": "2",
+      "Author": "Trần Bảo Định",
+      "Detail": "Cô Năm mường tượng trăng Rạch Miễu đang choàng ôm cô bằng hằng hà sa số ánh sáng diệu kỳ. Và, trong hằng hà sa số thứ ánh sáng diệu kỳ đó, cô nghe lời ru thổn thức của mình",
+      "Image": "assets/Image/KhoiUnChieu.jpg",
+      "Price": 96000,
+      "TheLoai": "Sách Văn Học"
+    },
+    {
+      "id": 16,
+      "Bookname": "KHÔNG GIA ĐÌNH",
+      "NamXB": 2018,
+      "IDTheLoai": "2",
+      "Author": "Hector Malot",
+      "Detail": "Không Gia Đình chính là tác phẩm không chỉ giúp bạn lấy lại lòng tin vào cuộc sống mà còn dành tặng bạn động lực để cố gắng và hi vọng vào một ngày mai sẽ tốt đẹp hơn.",
+      "Image": "assets/Image/KhongGiaDinh.jpg",
+      "Price": 118000,
+      "TheLoai": "Sách Văn Học"
+    },
+    {
+      "id": 17,
+      "Bookname": "DÂY THÌ, CÓ GÌ PHẢI SỢ?",
+      "NamXB": 2018,
+      "IDTheLoai": "3",
+      "Author": " Sylvain Mimoun, Rica Etienne",
+      "Detail": "Với cách tiếp cận giản dị và gần gũi, không né tránh mà đề cập thẳng thắn các vấn đề dưới góc nhìn khoa học, Dây Thì, Có Gì Phải Sợ? chính là cuốn cẩm nang không thể thiếu cho bạn trẻ, giải đáp tất cả những băn khoăn, lo lắng, để tự tin “dậy thì thành công”.",
+      "Image": "assets/Image/DayThi.jpg",
+      "Price": 80000,
+      "TheLoai": "Sách Tâm Lý và Giói Tính"
+    },
+    {
+      "id": 18,
+      "Bookname": "BÍ MẬT CỦA CON TRAI",
+      "NamXB": 2017,
+      "IDTheLoai": "3",
+      "Author": " Nhiều Tác Giả",
+      "Detail": " 'Set' quà tặng tuyệt vời về dậy thì từ A-Z dành cho con trai và con gái. Bộ sách được mua bản quyền của Úc sẽ giúp các em thích ứng tốt nhất trong giai đoạn biến đổi tâm sinh lý tuổi dậy thì đầy phức tạp. ",
+      "Image": "assets/Image/BiMatConTrai.jpg",
+      "Price": 44000,
+      "TheLoai": "Sách Tâm Lý và Giói Tính"
+    },
+    {
+      "id": 19,
+      "Bookname": "BÍ MẬT CỦA CON GÁI",
+      "NamXB": 2017,
+      "IDTheLoai": "3",
+      "Author": " Nhiều Tác Giả",
+      "Detail": " 'Set' quà tặng tuyệt vời về dậy thì từ A-Z dành cho con trai và con gái. Bộ sách được mua bản quyền của Úc sẽ giúp các em thích ứng tốt nhất trong giai đoạn biến đổi tâm sinh lý tuổi dậy thì đầy phức tạp. ",
+      "Image": "assets/Image/BiMatConGai.jpg",
+      "Price": 24000,
+      "TheLoai": "Sách Tâm Lý và Giói Tính"
+    },
+    {
+      "id": 20,
+      "Bookname": "BÍ MẬT CỦA CON GÁI",
+      "NamXB": 2017,
+      "IDTheLoai": "3",
+      "Author": " Nhiều Tác Giả",
+      "Detail": " 'Set' quà tặng tuyệt vời về dậy thì từ A-Z dành cho con trai và con gái. Bộ sách được mua bản quyền của Úc sẽ giúp các em thích ứng tốt nhất trong giai đoạn biến đổi tâm sinh lý tuổi dậy thì đầy phức tạp. ",
+      "Image": "assets/Image/BiMatConGai.jpg",
+      "Price": 24000,
+      "TheLoai": "Sách Tâm Lý và Giói Tính"
+    },
+    {
+      "id": 21,
+      "Bookname": "TRUYỆN CỔ TÍCH VIỆT NAM",
+      "NamXB": 2012,
+      "IDTheLoai": "4",
+      "Author": "  Nhiều Tác Giả",
+      "Detail": " Truyện cổ tích Việt Nam chứa đựng những ước mơ của cha ông và gói ghém nhiều bài học cho con cháu mai sau. Thế hệ này tiếp thế hệ kia kể mãi cho con trẻ nghe những câu chuyện không bao giờ cũ ",
+      "Image": "assets/Image/TruyenCoTich.jpg",
+      "Price": 58000,
+      "TheLoai": "Sách Thiếu Nhi"
+    },
+    {
+      "id": 22,
+      "Bookname": "TRUYỆN CỔ ANDERSEN",
+      "NamXB": 2018,
+      "IDTheLoai": "4",
+      "Author": " Hans Christian Andersen",
+      "Detail": " ... Rồi tôi mơ màng ngủ thiếp đi dưới cây thông vì mệt và vì hơi nóng của những cây nến tỏa ra. Và giữa lúc mơ mơ màng màng như thế tôi nhìn thấy Andersen khi ông để rơi bông hồng. Từ đó, bao giờ tôi cũng hình dung ông giống như trong giấc mơ êm ái đó.Tất nhiên, lúc đó tôi còn chưa biết cả nghĩa đen và nghĩa bóng những truyện cổ tích khác mà chỉ người lớn mới có thể hiểu hết ý nghĩa của nó... ",
+      "Image": "assets/Image/TruyenCoAndersen.jpg",
+      "Price": 73000,
+      "TheLoai": "Sách Thiếu Nhi"
+    },
+    {
+      "id": 23,
+      "Bookname": "MỤ PHÙ THỦY BABA YAGA ",
+      "NamXB": 2015,
+      "IDTheLoai": "4",
+      "Author": " Nhiều Tác Giả",
+      "Detail": " Dù là độc ác hay có phần thân thiện, Baba Yaga cũng xuất hiện trong rất nhiều truyện cổ tích của Nga. Tuyển tập truyện cổ tích này gồm có tám truyện thuộc loại tiêu biểu nhất trong đó có sự xuất hiện của Baba Yaga, với rất nhiều tình tiết ly kỳ và nhiều nhân vật quen thuộc khác của thần thoại Nga, như là Koschei bất tử, Dubynia (Người Cây Sồi),... Các truyện này có nguyên gốc bằng tiếng Nga, nhưng đã được dịch sang tiếng Anh từ cách đây khoảng một thế kỷ. ",
+      "Image": "assets/Image/MuPhuThuy.jpg",
+      "Price": 74000,
+      "TheLoai": "Sách Thiếu Nhi"
+    },
+    {
+      "id": 24,
+      "Bookname": "101 CÂU CHUYỆN VỀ CÁC NÀNG CÔNG CHÚA",
+      "NamXB": 2016,
+      "IDTheLoai": "4",
+      "Author": " Đinh Thượng Lâm",
+      "Detail": " Những nàng công chúa với tính cách khác nhau, đã in sâu dấu ấn trong lòng các em nhỏ, và được các em nhỏ trên toàn thế giới yêu thích Những câu chuyện ấy như người bạn đồng hành của các em, giúp các em phát hiện cái đẹp, nhận biết cái đẹp, cảm nhận cái đẹp và vận dụng cá đẹp, từ đó trở thành một em nhỏ đẹp từ cả ngoại hình đến tính cách. ",
+      "Image": "assets/Image/101CongChua.jpg",
+      "Price": 80000,
+      "TheLoai": "Sách Thiếu Nhi"
+    },
+    {
+      "id": 25,
+      "Bookname": "HOÀNG TỬ HẠNH PHÚC VÀ NHỮNG TRUYỆN THẦN TIÊN",
+      "NamXB": 2018,
+      "IDTheLoai": "4",
+      "Author": " Oscar Wilde",
+      "Detail": " Oscar Wilde luôn đứng về phía những nhân vật chính trong truyện kể của ông, những nghệ sĩ, nạn nhân vô tội trong trắng, chứ không phải những người sống bạt mạng than thân trách phận. Ngọn lửa trong các truyện thần tiên của ông đã soi sáng những mảnh đời bất hạnh và chúng đã cuốn hút bạn đọc phải nghiền ngẫm đến sự bi đát của những nhân vật chính trong sự tôn trọng. Với tinh thần này, những truyện kể thần tiên của Oscar Wilde có tính tôn giáo, thức tỉnh chúng ta xem xét lại bản chất của tính nhân đạo trong buổi bình minh của nền văn minh nhân loại. ",
+      "Image": "assets/Image/HoangTu.jpg",
+      "Price": 50000,
+      "TheLoai": "Sách Thiếu Nhi"
+    },
+    {
+      "id": 26,
+      "Bookname": "101 TRUYỆN NGỤ NGÔN THẾ GIỚI CHỌN LỌC",
+      "NamXB": 2017,
+      "IDTheLoai": "4",
+      "Author": " Đức Anh",
+      "Detail": " 101 Truyện Ngụ Ngôn Thế Giới Chọn Lọc – mỗi câu chuyện là một bài học cuộc sống quý giá, không chỉ hữu ích với các em nhỏ, mà đôi khi, trong vai trò người kể chuyện, những người làm cha, làm mẹ có dịp nhìn lại mình để sống tốt hơn. ",
+      "Image": "assets/Image/101NguNgon.jpg",
+      "Price": 36000,
+      "TheLoai": "Sách Thiếu Nhi"
+    },
+    {
+      "id": 27,
+      "Bookname": "101 TRUYỆN NGỤ NGÔN THẾ GIỚI CHỌN LỌC",
+      "NamXB": 2017,
+      "IDTheLoai": "4",
+      "Author": " Đức Anh",
+      "Detail": " 101 Truyện Ngụ Ngôn Thế Giới Chọn Lọc – mỗi câu chuyện là một bài học cuộc sống quý giá, không chỉ hữu ích với các em nhỏ, mà đôi khi, trong vai trò người kể chuyện, những người làm cha, làm mẹ có dịp nhìn lại mình để sống tốt hơn. ",
+      "Image": "assets/Image/101NguNgon.jpg",
+      "Price": 36000,
+      "TheLoai": "Sách Thiếu Nhi"
+    },
+    {
+      "id": 28,
+      "Bookname": "101 TRUYỆN NGỤ NGÔN THẾ GIỚI CHỌN LỌC",
+      "NamXB": 2017,
+      "IDTheLoai": "4",
+      "Author": " Đức Anh",
+      "Detail": " 101 Truyện Ngụ Ngôn Thế Giới Chọn Lọc – mỗi câu chuyện là một bài học cuộc sống quý giá, không chỉ hữu ích với các em nhỏ, mà đôi khi, trong vai trò người kể chuyện, những người làm cha, làm mẹ có dịp nhìn lại mình để sống tốt hơn. ",
+      "Image": "assets/Image/101NguNgon.jpg",
+      "Price": 36000,
+      "TheLoai": "Sách Thiếu Nhi"
+    },
+    {
+      "id": 29,
+      "Bookname": "HÀ NỘI - SÀI GÒN CITY GUIDE",
+      "NamXB": 2018,
+      "IDTheLoai": "5",
+      "Author": " Nhiều tác giả",
+      "Detail": " Sách cung cấp địa chỉ giới thiệu các điểm du lịch nổi tiếng của Sài Gòn và Hà Nội ",
+      "Image": "assets/Image/XayDungHNSG.jpg",
+      "Price": 168000,
+      "TheLoai": "Sách Du Lịch"
+    },
+    {
+      "id": 30,
+      "Bookname": "VIETNAM TOURIST GUIDEBOOK",
+      "NamXB": 2017,
+      "IDTheLoai": "5",
+      "Author": " Nhiều tác giả",
+      "Detail": ".",
+      "Image": "assets/Image/VNTour.jpg",
+      "Price": 36000,
+      "TheLoai": "Sách Du Lịch"
+    },
+    {
+      "id": 31,
+      "Bookname": "THE CIVILIZATION OF VIỆT NAM",
+      "NamXB": 2018,
+      "IDTheLoai": "5",
+      "Author": " Nguyễn Văn Huyên",
+      "Detail": " Trong lịch sử dân tộc học Pháp, Nguyên Văn Huyên (1905-1975) thuộc về thế hệ các nhà dân tộc học chuyên nghiệp đầu tiên, thế hệ đuợc các bậc thầy như Marcel Mauss dìu dắt,... ",
+      "Image": "assets/Image/CiviVN.jpg",
+      "Price": 200000,
+      "TheLoai": "Sách Du Lịch"
+    },
+    {
+      "id": 32,
+      "Bookname": "DI TÍCH THẮNG CẢNH VIỆT NAM",
+      "NamXB": 2017,
+      "IDTheLoai": "5",
+      "Author": " Minh Hạnh",
+      "Detail": " Di tích thắng cảnh Việt Nam sẽ đồng hành cùng bạn trong hành trình khám phá văn hóa Việt Nam qua các di sản văn hóa cấp quốc gia và thế giới với nét độc đáo của núi, rừng, sông, hồ, thác, đồng, vườn, vịnh, đảo, động, phố, làng, thành, chùa, tháp... Hy vọng, cuốn sách giúp cho sự trải nghiệm, khám phá và thưởng ngoạn của du khách thêm phong phú và sâu sắc, thêm sự hiểu biết về đất nước con người Việt Nam nhân hậu và mến khách. ",
+      "Image": "assets/Image/DiTich.jpg",
+      "Price": 48000,
+      "TheLoai": "Sách Du Lịch"
+    },
+    {
+      "id": 33,
+      "Bookname": "SÁCH HƯỚNG DẪN DU LỊCH NON NƯỚC VIỆT NAM",
+      "NamXB": 2018,
+      "IDTheLoai": "5",
+      "Author": " Vũ Thế Bình",
+      "Detail": " Non nước Việt Nam đã cung cấp một cách đầy đủ và khái quát thông tin về lịch sử, văn hóa, đất nước con người Việt Nam, thông tin về các lễ hội, làng nghề, danh lam thắng cảnh, di tích lịch sử văn hóa 63 tỉnh, thành phố của Việt Nam. Các thông tin đó rất cần thiết cho bà con Việt Kiều, những người lúc nào cũng hướng về quê hương, cũng mong biết được cái hay, cái dẹp của đất nước để yêu quý, để tự hào. Non nước Việt Nam đã đáp ứng được điều đó, vì vậy ngay từ khi mới ra mắt (1998), sách đã được chào đón và trở thành người bạn thân thiết của nhiều gia đình người Việt ở Pháp.",
+      "Image": "assets/Image/NonNuocVN.jpg",
+      "Price": 127000,
+      "TheLoai": "Sách Du Lịch"
+    },
+    {
+      "id": 34,
+      "Bookname": "CẨM NANG DU LỊCH NHẬT BẢN",
+      "NamXB": 2018,
+      "IDTheLoai": "5",
+      "Author": " Dorling Kindersley Limited",
+      "Detail": "Cuốn cẩm nang này sẽ giúp bạn có được những trải nghiệm tuyệt vời nhất trong chuyến du lịch Nhật Bản với hàng loạt thông tin thực tiễn và gợi ý từ các chuyên gia. Phần Giới thiệu đất nước Nhật Bản sẽ vẽ ra cho bạn một hình dung về nước Nhật gắn với bối cảnh lịch sử và văn hóa. Tiếp theo, các phần về Tokyo và 8 vùng địa lí sẽ miêu tả cụ thể các điểm tham quan quan trọng kèm bản đồ, hình ảnh và tranh minh họa. Hướng dẫn về nhà hàng và khách sạn nằm ở phần Hành trang du khách, cùng với nhiều lời khuyên chung về các loại hình nhà nghỉ và ẩm thực Nhật Bản. Phần Những điều cần biết cung cấp nhiều thông tin thiết thực về mọi vấn đề, từ giao thông cho tới các phép tắc cư xử, xã giao.",
+      "Image": "assets/Image/CamNangNhatBan.jpg",
+      "Price": 172000,
+      "TheLoai": "Sách Du Lịch"
+    },
+    {
+      "id": 35,
+      "Bookname": "CẨM NANG DU LỊCH THÁI LAN",
+      "NamXB": 2018,
+      "IDTheLoai": "5",
+      "Author": " Dorling Kindersley Limited",
+      "Detail": " Cuốn cẩm nang này sẽ giúp bạn có được những trải nghiệm tuyệt vời nhất trong chuyến du lịch Thái Lan, với hàng loạt những thông tin thiết thực và gợi ý hữu ích từ các chuyên gia. Phần Giới thiệu Thái Lan phác họa cho bạn cái nhìn tổng thể về bối cảnh văn hóa và lịch sử của quốc gia này. Năm phần tiếp theo giới thiệu về năm miền địa lí của Thái Lan, cộng với Bangkok, và miêu tả các thắng cảnh quan trọng kèm theo bản đồ, hình ảnh và tranh minh họa. Các mục chính đề cập các chủ đề từ kiến trúc và mĩ nghệ cho đến động vật hoang dã và các môn thể thao. Hướng dẫn về nhà hàng và khách sạn nằm ở phần Hành trang du khách. Phần Những điều cần biết cung cấp những thông tin thiết thực về mọi vấn đề từ giao thông cho đến an toàn cá nhân.",
+      "Image": "assets/Image/CamNangThaiLan.jpg",
+      "Price": 212000,
+      "TheLoai": "Sách Du Lịch"
+    },
+    {
+      "id": 36,
+      "Bookname": "CẨM NANG DU LỊCH NƯỚC ANH",
+      "NamXB": 2018,
+      "IDTheLoai": "5",
+      "Author": " Dorling Kindersley Limited",
+      "Detail": " Cuốn cẩm nang này sẽ giúp bạn có được trải nghiệm tuyệt vời nhất trong chuyến du lịch đảo Anh, với hàng loạt thông tin thiết thực và gợi ý hữu ích từ các chuyên gia. Phần Giới thiệu đảo Anh cho bạn cái nhìn tổng thể về bối cảnh văn hóa và lịch sử của đảo quốc này. Sáu chương tiếp theo cộng với chương về London sẽ giới thiệu các vùng miền của đảo Anh, miêu tả các thắng cảnh quan trọng kèm theo bản đồ và hình ảnh minh họa. Các mục chính đề cập các chủ đề từ kiến trúc, vườn tược đến các môn thể thao. Hướng dẫn về nhà hàng và khách sạn nằm ở phần Hành trang du khách. Phần Những điều cần biết cung cấp những thông tin thiết thực về mọi vấn đề từ giao thông cho đến an toàn cá nhân.",
+      "Image": "assets/Image/CamNangAnh.jpg",
+      "Price": 268000,
+      "TheLoai": "Sách Du Lịch"
+    },
+    {
+      "id": 37,
+      "Bookname": "CẨM NANG DU LỊCH TRUNG QUỐC",
+      "NamXB": 2018,
+      "IDTheLoai": "5",
+      "Author": " Dorling Kindersley Limited",
+      "Detail": " Cuốn cẩm nang này sẽ giúp bạn có được những trải nghiệm tuyệt vời nhất trong chuyến du lịch Trung Quốc với hàng loạt những thông tin thiết thực và gợi ý hữu ích từ các chuyên gia. Phần Giới thiệu đất nước Trung Quốc phác họa cho bạn một cái nhìn tổng thể về Trung Quốc trong bối cảnh văn hóa và lịch sử tương ứng. Tiếp theo là bảy phần giới thiệu bảy vùng địa lí của Trung Quốc, mỗi phần được chia thành nhiều chương, mỗi chương bao gồm từ một đến ba tỉnh thành. Trong mỗi phần đều có miêu tả cụ thể những địa điểm du lịch quan trọng kèm theo bản đồ, hình ảnh và tranh minh họa. Hướng dẫn về nhà hàng và khách sạn nằm ở phần Hành trang du khách. Phần Những điều cần biết cung cấp những thông tin thiết thực về mọi vấn đề từ giao thông cho đến an toàn cá nhân.",
+      "Image": "assets/Image/CamNangTrungQuoc.jpg",
+      "Price": 264000,
+      "TheLoai": "Sách Du Lịch"
+    },
+    {
+      "id": 38,
+      "Bookname": "CẨM NANG DU LỊCH NƯỚC MỸ",
+      "NamXB": 2018,
+      "IDTheLoai": "5",
+      "Author": " Dorling Kindersley Limited",
+      "Detail": " Cuốn cẩm nang này sẽ giúp bạn có được trải nghiệm tuyệt vời nhất trong chuyến du lịch nước Mỹ, với hàng loạt thông tin thiết thực và gợi ý hữu ích từ các chuyên gia. Phần Sơ lược về nước Mỹ cho bạn cái nhìn tổng thể về bối cảnh văn hóa và lịch sử của đất nước này. Các chương tiếp sẽ giới thiệu các thắng cảnh quan trọng, các điểm đến du lịch nổi tiếng tại 50 tiểu bang nước Mỹ, kèm theo bản đồ và hình ảnh minh họa. Hướng dẫn chi tiết về các nhà hàng và khách sạn nên đến nằm ở phần Hành trang du khách. Phần Những điều cần biết cung cấp những thông tin thiết thực về mọi vấn đề từ đi lại, giao thông, visa cho đến an toàn cá nhân đối với du khách nước ngoài.",
+      "Image": "assets/Image/CamNangMy.jpg",
+      "Price": 312000,
+      "TheLoai": "Sách Du Lịch"
+    },
+    {
+      "id": 39,
+      "Bookname": "CẨM NANG DU LỊCH NƯỚC MỸ",
+      "NamXB": 2018,
+      "IDTheLoai": "5",
+      "Author": " Dorling Kindersley Limited",
+      "Detail": " Cuốn cẩm nang này sẽ giúp bạn có được trải nghiệm tuyệt vời nhất trong chuyến du lịch nước Mỹ, với hàng loạt thông tin thiết thực và gợi ý hữu ích từ các chuyên gia. Phần Sơ lược về nước Mỹ cho bạn cái nhìn tổng thể về bối cảnh văn hóa và lịch sử của đất nước này. Các chương tiếp sẽ giới thiệu các thắng cảnh quan trọng, các điểm đến du lịch nổi tiếng tại 50 tiểu bang nước Mỹ, kèm theo bản đồ và hình ảnh minh họa. Hướng dẫn chi tiết về các nhà hàng và khách sạn nên đến nằm ở phần Hành trang du khách. Phần Những điều cần biết cung cấp những thông tin thiết thực về mọi vấn đề từ đi lại, giao thông, visa cho đến an toàn cá nhân đối với du khách nước ngoài.",
+      "Image": "assets/Image/CamNangMy.jpg",
+      "Price": 312000,
+      "TheLoai": "Sách Du Lịch"
+    },
+    {
+      "id": 40,
+      "Bookname": "CẨM NANG DU LỊCH NƯỚC MỸ",
+      "NamXB": 2018,
+      "IDTheLoai": "5",
+      "Author": " Dorling Kindersley Limited",
+      "Detail": " Cuốn cẩm nang này sẽ giúp bạn có được trải nghiệm tuyệt vời nhất trong chuyến du lịch nước Mỹ, với hàng loạt thông tin thiết thực và gợi ý hữu ích từ các chuyên gia. Phần Sơ lược về nước Mỹ cho bạn cái nhìn tổng thể về bối cảnh văn hóa và lịch sử của đất nước này. Các chương tiếp sẽ giới thiệu các thắng cảnh quan trọng, các điểm đến du lịch nổi tiếng tại 50 tiểu bang nước Mỹ, kèm theo bản đồ và hình ảnh minh họa. Hướng dẫn chi tiết về các nhà hàng và khách sạn nên đến nằm ở phần Hành trang du khách. Phần Những điều cần biết cung cấp những thông tin thiết thực về mọi vấn đề từ đi lại, giao thông, visa cho đến an toàn cá nhân đối với du khách nước ngoài.",
+      "Image": "assets/Image/CamNangMy.jpg",
+      "Price": 312000,
+      "TheLoai": "Sách Du Lịch"
+    },
+    {
+      "id": 41,
+      "Bookname": "SỐNG THỰC TẾ GIỮA ĐỜI THỰC DỤNG",
+      "NamXB": 2018,
+      "IDTheLoai": "6",
+      "Author": " Mễ Mông",
+      "Detail": "Trưởng thành là khi chúng ta hiểu ra rằng, không thể sống quá thật thà, quá trong sáng giữa cuộc đời đầy biến cố này. Thay vì kêu than “Thế giới này thực tế đến thực dụng!”, sao bạn không tự hỏi “Thực tế có gì không tốt?” Ít nhất, thực tế sẽ giúp bạn mạnh mẽ hơn, bản lĩnh hơn, dạy bạn cách vượt qua nghịch cảnh, trung thực với chính mình....",
+      "Image": "assets/Image/SongThucTe.jpg",
+      "Price": 78000,
+      "TheLoai": "Sách Kỹ Năng"
+    },
+    {
+      "id": 42,
+      "Bookname": "'ƯỚC GÌ TÔI ĐÃ…' - 5 HỐI TIẾC LỚN TRONG CUỘC ĐỜI",
+      "NamXB": 2018,
+      "IDTheLoai": "6",
+      "Author": " Bronnie Ware",
+      "Detail": "Tác phẩm 'Ước Gì Tôi Đã…' - 5 Hối Tiếc Lớn Trong Cuộc Đời mang đến hy vọng về một thế giới tốt đẹp hơn và truyền cảm hứng cho bạn sống một cuộc đời đích thực.",
+      "Image": "assets/Image/UocGiToiDa.jpg",
+      "Price": 101000,
+      "TheLoai": "Sách Kỹ Năng"
+    },
+    {
+      "id": 43,
+      "Bookname": "SỐNG THEO SỞ THÍCH ĐỂ SỐNG LÂU",
+      "NamXB": 2016,
+      "IDTheLoai": "6",
+      "Author": " P. S. Steinekrohn",
+      "Detail": "Tôi tin rằng đọc cuốn này, độc giả sẽ hiểu được phần nào xu hướng tự nhiên của mình, tìm được một lối sống thích hợp với mình, vẫn tin khoa học nhưng không tận tin những thuyết chưa được chứng minh hẳn hoi, và nhờ vậy mà hết lo ngại, hưởng đời được nhiều hơn, sống lâu hơn. Sau cùng tôi cần xin lỗi độc giả: Tôi không phải là nhà chuyên môn, nhiều danh từ y khoa dịch chắc chưa đúng, để độc giả khỏi hiểu lầm, tôi đã phải ghi thêm tiếng Pháp ở bên cạnh.",
+      "Image": "assets/Image/SongTheoSoThich.jpg",
+      "Price": 103000,
+      "TheLoai": "Sách Kỹ Năng"
+    },
+    {
+      "id": 44,
+      "Bookname": "KHI TÀI NĂNG KHÔNG THEO KỊP GIẤC MƠ",
+      "NamXB": 2017,
+      "IDTheLoai": "6",
+      "Author": " Mèo Maverick",
+      "Detail": "Cuộc sống này, không có người thất bại, chỉ có người không dám đấu tranh đến cùng. Ranh giới giữa thành công và thất bại, chỉ đúng bằng một đường “kiên trì” mà thôi. Khi tài năng không theo kịp giấc mơ, bạn sẽ lựa chọn từ bỏ, hay cố gắng hết sức để vươn tới ước mơ ấy?",
+      "Image": "assets/Image/KhiTaiNang.jpg",
+      "Price": 65000,
+      "TheLoai": "Sách Kỹ Năng"
+    },
+    {
+      "id": 45,
+      "Bookname": "TRÍ THÔNG MINH CẢM XÚC FOR DUMMIES",
+      "NamXB": 2017,
+      "IDTheLoai": "6",
+      "Author": " Steven J. Stein",
+      "Detail": "Đặc biệt trong bối cảnh Cách mạng công nghiệp 4.0 trí thông minh cảm xúc ngày càng trở nên quan trọng. Trong một thế giới của những thay đổi sâu sắc không ngừng, những cá nhân, tố chức với trí thông minh cảm xúc cao sẽ không chỉ sáng tạo hơn mà còn được trang bị tốt hơn để linh hoạt và bền bỉ hơn – một đặc tính then chốt để đối mặt với sự đột phá.",
+      "Image": "assets/Image/TriThongMinh.jpg",
+      "Price": 36000,
+      "TheLoai": "Sách Kỹ Năng"
+    },
+    {
+      "id": 46,
+      "Bookname": "MẸO QUẢN LÝ TÀI CHÍNH SAU KẾT HÔN",
+      "NamXB": 2017,
+      "IDTheLoai": "6",
+      "Author": " E. S. Kim, S. H. Park",
+      "Detail": "Mâu thuẫn gia đình nảy sinh từ đây, rạn nứt tình cảm cũng bắt nguồn từ đấy. Một thực tế chẳng hề màu hồng mà bất cứ đôi vợ chồng mới cưới nào cũng từng trải qua. Vậy còn bạn, bạn đã sẵn sàng để đương đầu? Bạn đã có được những kỹ năng cần thiết hay chưa?",
+      "Image": "assets/Image/MeoQuanLi.jpg",
+      "Price": 79000,
+      "TheLoai": "Sách Kỹ Năng"
+    },
+    {
+      "id": 47,
+      "Bookname": "MẸO QUẢN LÝ TÀI CHÍNH SAU KẾT HÔN",
+      "NamXB": 2017,
+      "IDTheLoai": "6",
+      "Author": " E. S. Kim, S. H. Park",
+      "Detail": "Mâu thuẫn gia đình nảy sinh từ đây, rạn nứt tình cảm cũng bắt nguồn từ đấy. Một thực tế chẳng hề màu hồng mà bất cứ đôi vợ chồng mới cưới nào cũng từng trải qua. Vậy còn bạn, bạn đã sẵn sàng để đương đầu? Bạn đã có được những kỹ năng cần thiết hay chưa?",
+      "Image": "assets/Image/MeoQuanLi.jpg",
+      "Price": 79000,
+      "TheLoai": "Sách Kỹ Năng"
+    },
+    {
+      "id": 48,
+      "Bookname": "MẸO QUẢN LÝ TÀI CHÍNH SAU KẾT HÔN",
+      "NamXB": 2017,
+      "IDTheLoai": "6",
+      "Author": " E. S. Kim, S. H. Park",
+      "Detail": "Mâu thuẫn gia đình nảy sinh từ đây, rạn nứt tình cảm cũng bắt nguồn từ đấy. Một thực tế chẳng hề màu hồng mà bất cứ đôi vợ chồng mới cưới nào cũng từng trải qua. Vậy còn bạn, bạn đã sẵn sàng để đương đầu? Bạn đã có được những kỹ năng cần thiết hay chưa?",
+      "Image": "assets/Image/MeoQuanLi.jpg",
+      "Price": 79000,
+      "TheLoai": "Sách Kỹ Năng"
+    },
+    {
+      "id": 49,
+      "Bookname": "A-TÌ-ĐẠT-MA PHÁP UẨN TÚC LUẬN ( BỘ 2 QUYỂN )",
+      "NamXB": 2017,
+      "IDTheLoai": "7",
+      "Author": " Arya Maha Maudgalyayana",
+      "Detail": " 'Pháp uẩn túc luận là văn bản có tầm ảnh hưởng nhất của hệ thống A-tì-đạt-ma, là cội nguồn của Nhất thiết hữu bộ, là thần túc sâu thẳm của bậc Vô thượng đẳng giác, là trước tác của Ma-ha Mục-kiền-liên, là diệu tuệ của gương sáng lục thông, là trí minh của sự rực chiếu tam đạt, là chiếc bè cổ kim của đại thiên thế giới, là âm thanh trong suốt của pháp loa trải qua vạn ức thời kỳ' ",
+      "Image": "assets/Image/ATiDatMa.jpg",
+      "Price": 200000,
+      "TheLoai": "Sách Tôn Giáo"
+    },
+    {
+      "id": 50,
+      "Bookname": "SÁM PHÁP ĐỊA XÚC",
+      "NamXB": 2017,
+      "IDTheLoai": "7",
+      "Author": " Thích Nhất Hạnh",
+      "Detail": " Mỗi bài trong quyển Sám Pháp Địa Xúc này giống như một buổi tâm tình với đức Thế Tôn. Ta có thể chọn một bài thích hợp với hoàn cảnh của ta mà thực tập. Trước khi thực tập Sám Pháp, ta có thể ngồi thiền hoặc đi thiền 30 phút để làm thân tâm lắng lại. Ta có thể một mình thực tập Sám Pháp Địa Xúc hoặc thực tập chung với nhiều người. Sau mỗi đoạn sám, mọi người thực tập lạy xuống khi nghe tiếng chuông. Mỗi lần lạy ta chỉ nên lạy hai hoặc ba lạy. Trong khi lạy, ta hoàn toàn phú thác thân mạng ta cho Đất, để đất có thể ôm lấy ta và giúp ta chuyển hóa những khổ đau và bế tắc trong ta... ",
+      "Image": "assets/Image/SamPhapDiaXuc.jpg",
+      "Price": 104000,
+      "TheLoai": "Sách Tôn Giáo"
+    },
+    {
+      "id": 51,
+      "Bookname": "KIẾN PHẬT",
+      "NamXB": 2018,
+      "IDTheLoai": "7",
+      "Author": " Rose Elliot",
+      "Detail": " Tôi chỉ hy vọng là khi đọc quyển sách này, quý vị cũng cảm thấy như mình đang tham gia khóa tu và nó sẽ thay đổi cuộc đời quý vị như nó đã thay đổi cuộc đời tôi. ",
+      "Image": "assets/Image/KienPhat.jpg",
+      "Price": 89000,
+      "TheLoai": "Sách Tôn Giáo"
+    },
+    {
+      "id": 52,
+      "Bookname": "ÁNH ĐẠO PHƯƠNG ĐÔNG",
+      "NamXB": 2017,
+      "IDTheLoai": "7",
+      "Author": " Andre Ferdinand Herold",
+      "Detail": " Cuốn sách sử dụng văn phong đơn giản nhưng lôi cuốn. Tư liệu chủ yếu lấy từ các bản văn Phật giáo kinh điển nhưng không lạm dụng những thuật ngữ chuyên sâu. Một câu chuyện về Thái tử Tất Đạt Đa, người sẽ thừa kế ngai vàng nhưng quyết định từ bỏ tất cả để thực hiện hành trình tìm kiếm sự giác ngộ đầy gian nan, và cuối cùng, Ngài đã tìm thấy Niết bàn. Một tác phẩm ngắn và dễ đọc, rất hợp với giới trẻ. ",
+      "Image": "assets/Image/AnhDaoPhuongDong.jpg",
+      "Price": 92000,
+      "TheLoai": "Sách Tôn Giáo"
+    },
+    {
+      "id": 53,
+      "Bookname": "NHẬT TỤNG THIỀN MÔN",
+      "NamXB": 2017,
+      "IDTheLoai": "7",
+      "Author": " Thích Nhất Hạnh",
+      "Detail": " Sách Nhật Tụng Thiền Môn này nếu được đem ra áp dụng sớm sẽ tạo ra rất nhiều sinh khí mới cho thiền môn và mở ra một kỷ nguyên mới cho sự thực tập. ",
+      "Image": "assets/Image/NhatTungThienMon.jpg",
+      "Price": 168000,
+      "TheLoai": "Sách Tôn Giáo"
+    },
+    {
+      "id": 54,
+      "Bookname": "LỜI PHẬT DẠY",
+      "NamXB": 2018,
+      "IDTheLoai": "7",
+      "Author": " Bukkyõ Dendõ Kyõkai",
+      "Detail": " Lời phật dạy đã được ghi chép qua hàng ngàn bộ kinh, chứa đựng tinh túy những lời dạy đã được gìn giữ và lưu truyền qua hơn 2500 năm, vượt qua mọi ranh giới và rào chắn, không gian và thời gian. ",
+      "Image": "assets/Image/LoiPhatDay.jpg",
+      "Price": 76000,
+      "TheLoai": "Sách Tôn Giáo"
+    },
+    {
+      "id": 55,
+      "Bookname": "SINH TRẮC VÂN TAY",
+      "NamXB": 2018,
+      "IDTheLoai": "7",
+      "Author": " Richard Unger",
+      "Detail": " Bạn chỉ cần làm theo các bước trong cuốn sách và bạn có thể tìm ra tiềm năng phát triển cho bản thân cũng như cho con các bạn. Nếu thấy cuốn sách bổ ích hãy chia sẻ ngay tới bạn bè của bạn nhé. ",
+      "Image": "assets/Image/SinhTracVanTay.jpg",
+      "Price": 168000,
+      "TheLoai": "Sách Tôn Giáo"
+    },
+    {
+      "id": 56,
+      "Bookname": "10 ĐẠI ĐỆ TỬ PHẬT",
+      "NamXB": 2015,
+      "IDTheLoai": "7",
+      "Author": " Thế Giới Phật Giáo",
+      "Detail": " Trong suốt 45 năm giáo hóa, từ Thành đạo cho đến Niết Bàn, Phật quy tụ xung quanh hào quang của Ngài một số đệ tử cả xuất gia lẫn tại gia. Trong số này, những bậc xuất sắc ưu tú, chứng được thánh quả A La Hán gồm có 1250 vị. Đặc biệt có 10 vị mệnh danh là Thập Đại Đệ tử, trong 10 vị này mỗi vị đều có sở trường riêng, sở chứng riêng và đạo hạnh riêng. ",
+      "Image": "assets/Image/10DaiDeTu.jpg",
+      "Price": 60000,
+      "TheLoai": "Sách Tôn Giáo"
+    },
+    {
+      "id": 57,
+      "Bookname": "KỸ THUẬT NUÔI HÀU",
+      "NamXB": 2017,
+      "IDTheLoai": "8",
+      "Author": " Nguyễn Kim Độ, Ngô Trọng Lự",
+      "Detail": " .",
+      "Image": "assets/Image/KyThuatNuoiHau.jpg",
+      "Price": 19000,
+      "TheLoai": "Sách Chăn Nuôi"
+    },
+    {
+      "id": 58,
+      "Bookname": "KỸ THUẬT NUÔI CHIM YẾN & TIÊU THỤ YẾN SÀO",
+      "NamXB": 2017,
+      "IDTheLoai": "8",
+      "Author": " Nhiều Tác Giả",
+      "Detail": " . ",
+      "Image": "assets/Image/ChimYen.jpg",
+      "Price": 53000,
+      "TheLoai": "Sách Chăn Nuôi"
+    },
+    {
+      "id": 59,
+      "Bookname": "CHẾ PHẨM THẢO DƯỢC CHĂN NUÔI LỢN VÀ GÀ",
+      "NamXB": 2017,
+      "IDTheLoai": "8",
+      "Author": " Lã Văn Kính",
+      "Detail": " . ",
+      "Image": "assets/Image/SuDungChePhamThaoDuoc.jpg",
+      "Price": 56000,
+      "TheLoai": "Sách Chăn Nuôi"
+    },
+    {
+      "id": 60,
+      "Bookname": "KỸ THUẬT NUÔI THỦY ĐẶC SẢN TÔM CUA",
+      "NamXB": 2018,
+      "IDTheLoai": "8",
+      "Author": " Trần Văn Hòa, Trần Ngọc Hải",
+      "Detail": " Nuôi các thủy đặc sản như tôm, cua gần đây đã trở thành một ngành kinh tế mang lại nhiều lợi nhuận cho các nông dân sống ở vùng duyên hải. Tôm sú, tôm càng xanh, cua biển không những là nguồn thực phẩm cao cấp ,... ",
+      "Image": "assets/Image/KyThuatNuoiTomCuajpg.jpg",
+      "Price": 20000,
+      "TheLoai": "Sách Chăn Nuôi"
+    },
+    {
+      "id": 61,
+      "Bookname": "KỸ THUẬT NUÔI GÀ THẢ VƯỜN TRONG GIA ĐÌNH",
+      "NamXB": 2018,
+      "IDTheLoai": "8",
+      "Author": " Nhiều Tác Giả",
+      "Detail": " Kỷ Thuật Nuôi gà vườn trong gia đình ",
+      "Image": "assets/Image/KyThuatNuoiGa.jpg",
+      "Price": 45000,
+      "TheLoai": "Sách Chăn Nuôi"
+    },
+    {
+      "id": 62,
+      "Bookname": "KỸ THUẬT NUÔI KỲ ĐÀ & DÔNG",
+      "NamXB": 2016,
+      "IDTheLoai": "8",
+      "Author": " Nguyễn Thị Hồng",
+      "Detail": " . ",
+      "Image": "assets/Image/KyThuatNuoiKyDa.jpg",
+      "Price": 60000,
+      "TheLoai": "Sách Chăn Nuôi"
+    },
+    {
+      "id": 63,
+      "Bookname": "CHƯƠNG TRÌNH 100 NGHỀ CHO NÔNG DÂN HỒ",
+      "NamXB": 2015,
+      "IDTheLoai": "8",
+      "Author": " Phạm Văn Khánh",
+      "Detail": " Giáo sư Nguyễn Lân Hùng - Tổng thư ký Hội các ngành Sinh học Việt Nam đã đứng ra vận động và tổ chức để đông đảo các nhà khoa học giỏi và giàu kinh nghiệm tham gia viết bộ sách Chương trình nghề cho nông dân gồm 100 cuốn nhằm dạy 100 nghề cho nông dân. Bộ sách này sẽ là cẩm nang để nông dân có được những kỹ thuật mới, những ngành nghề mới, phát huy hết những tiềm năng sinh học sẵn có ở địa phương. Họ sẽ tự vươn lên ngay trên chính ruộng vườn của mình. ",
+      "Image": "assets/Image/NuoiCaHo.jpg",
+      "Price": 28000,
+      "TheLoai": "Sách Chăn Nuôi"
+    },
+    {
+      "id": 64,
+      "Bookname": "KỸ THUẬT CHĂN NUÔI - NUÔI HEO HƯỚNG NẠC",
+      "NamXB": 2015,
+      "IDTheLoai": "8",
+      "Author": " Việt Chương, Nguyễn Việt Thái",
+      "Detail": " Để đáp ứng mức nhu cầu của thị trường nội địa cũng như xuất khẩu, ngày nay chỉ những giống heo hướng nạc (cho nhiều nạc) mới được chọn nuôi. Đó là các giống heo ngoại nhập như Yorkshire, Berkshire, Landrace… và các giống nội địa như heo Thuộc Nhiêu, Ba Xuyên… Giống tốt đã sẵn, nhưng muốn nuôi heo để có nhiều lời thì người chăn nuôi cần phải am tường cách chọn giống, cách lập chuồng trại, chọn khẩu phần ăn thích hợp và cả cách phòng ngừa bệnh cho vật nuôi…Tất cả những điều liên quan đến kỹ thuật chăn nuôi heo để đạt hiệu quả cao nhất này đã được soạn giả hướng dẫn tường tận trong sách. ",
+      "Image": "assets/Image/KyThuatNuoiHeo.jpg",
+      "Price": 22000,
+      "TheLoai": "Sách Chăn Nuôi"
+    },
+    {
+      "id": 65,
+      "Bookname": "TIMESAVER FOR EXAMS - IELTS PRACTICE TESTS & TIPS",
+      "NamXB": 2017,
+      "IDTheLoai": "9",
+      "Author": " Liz Joiner",
+      "Detail": " Bộ tài liệu luyện thi IELTS hữu ích: Bốn bài thi mẫu hỗ trợ hiệu quả cho những thí sinh mong muốn đạt điểm 6.0 trở lên ở bài thi IELTS khối Học thuật (Academic), Nhiều lời khuyên hữu ích giúp thí sinh tránh được các lỗi thường gặp và nâng cao kỹ năng làm bài để đạt kết quả tốt nhất ở bài thi thực tế, Mục Boost Your Score xen lẫn trong các bài học nêu rõ những thử thách chính trong bài thi đọc, viết, nghe và nói để thí sinh chú ý hơn khi làm bài, Bạn đọc dễ sử dụng nhờ có đáp án và phần ghi âm các bài nghe ",
+      "Image": "assets/Image/TimeSaver.jpg",
+      "Price": 182000,
+      "TheLoai": "Sách Ngoại Ngữ"
+    },
+    {
+      "id": 66,
+      "Bookname": "YOU CAN WRITE BETTER ENGLISH - NGHỆ THUẬT HÀNH VĂN TIẾNG ANH",
+      "NamXB": 2015,
+      "IDTheLoai": "9",
+      "Author": "  Barry Kalb",
+      "Detail": " Nghệ Thuật Hành Văn Tiếng Anh chứa đựng kiến thức đồ sộ về tất cả sai lầm phổ biến trong cách viết tiếng Anh của người Việt nói riêng và người châu Á nói chung. Những lỗi sai này đã được cây viết nổi tiếng người Mỹ Barry Kalb đúc kết sau 35 năm sống và làm việc ở châu Á trong vai trò phóng viên và giảng viên đại học. Với kinh nghiệm của một cây viết chuyên nghiệp, tác giả cũng đưa ra những chỉ dẫn chi tiết để cải thiện từng lỗi sai cụ thể, nhằm giúp bạn ngày càng hoàn thiện nghệ thuật hành văn tiếng Anh. ",
+      "Image": "assets/Image/YouCanWrite.jpg",
+      "Price": 72000,
+      "TheLoai": "Sách Ngoại Ngữ"
+    },
+    {
+      "id": 67,
+      "Bookname": "IELTS SPEAKING SUCCESS: SKILLS, STRATEGIES AND MODEL ANSWERS",
+      "NamXB": 2018,
+      "IDTheLoai": "9",
+      "Author": "  Mike Wattie",
+      "Detail": " IELTS là kỳ thi kiểm tra trình độ thông thạo Anh ngữ phổ biến nhất thế giới cho mục đích học tập, làm việc và định cư. Đây là một kỳ thi quan trọng vì vậy đề thi IELTS thường có nhiều phần khó và phức tạp. Người học muốn đạt điểm cao phải thực sự cố gắng, chăm chỉ qua từng ngày. ",
+      "Image": "assets/Image/Mikes.jpg",
+      "Price": 100000,
+      "TheLoai": "Sách Ngoại Ngữ"
+    },
+    {
+      "id": 68,
+      "Bookname": "THÔNG THẠO TIẾNG ANH GIAO TIẾP TRONG ĐỜI SỐNG",
+      "NamXB": 2018,
+      "IDTheLoai": "9",
+      "Author": "  Laura Phelps",
+      "Detail": " Ba chủ đề trên được chia thành 26 bài giới thiệu những tình huống thường gặp trong thực tế như làm quen, trò chuyện về các chương trình truyền hình và phim ảnh, thuê nhà, ăn ngoài, đi khám bệnh, đến tiệm làm tóc, tìm việc làm, xử lý những trường hợp khẩn cấp… Mỗi bài bắt đầu bằng phần từ vựng, tiếp theo là vài đoạn đối thoại và rất nhiều mẫu câu hữu ích. Qua đó, bạn sẽ biết cách sử dụng tiếng Anh khi học tập, làm việc hoặc định cư ở nước ngoài. ",
+      "Image": "assets/Image/ThongThaoTiengAnh.jpg",
+      "Price": 238000,
+      "TheLoai": "Sách Ngoại Ngữ"
+    },
+    {
+      "id": 69,
+      "Bookname": "TIẾNG HOA CHO NGƯỜI VIỆT",
+      "NamXB": 2018,
+      "IDTheLoai": "9",
+      "Author": "  Quan Bình, Ngọc Lân",
+      "Detail": " Phần đầu tài liệu này trình bày phương pháp phiên âm bằng tiếng Việt, một phương pháp tuy cổ điển nhưng dễ phát âm, dễ học, tương đối chính xác, hoàn toàn có thể tự học, giúp bạn có khả năng giao lưu, trao đổi ý tưởng bằng tiếng Hoa dành cho các bạn muốn sử dụng ngay. Sau dó là các loại từ thường dùng, những câu ngắn, đơn giản nhưng rất thông dụng, tiếp theo là các tình huống giao tiếp cụ thể theo đề tài. Trong mỗi tình huống đàm thoại bao gồm nhiều đoạn đàm thoại khác nhau, và trong một câu hỏi có nhiều cách trả lời tùy theo từng hoàn cảnh thực tế. ",
+      "Image": "assets/Image/TiengHoaChoNguoiViet.jpg",
+      "Price": 72000,
+      "TheLoai": "Sách Ngoại Ngữ"
+    },
+    {
+      "id": 70,
+      "Bookname": "HIKARI - GIÁO TRÌNH NGỮ PHÁP TIẾNG NHẬT",
+      "NamXB": 2017,
+      "IDTheLoai": "9",
+      "Author": "  Hoàng Quỳnh",
+      "Detail": " Tổng hợp ngữ pháp thường xuyên: Thông thường, khi kết thúc 1 tuần học, bạn nên tổng hợp tất cả các ngữ pháp mình đã học trong tuần và dành thời gian ôn tập lại khoảng 3,4 lần. ",
+      "Image": "assets/Image/GiaoTrinhTiengNhat.jpg",
+      "Price": 80000,
+      "TheLoai": "Sách Ngoại Ngữ"
+    },
+    {
+      "id": 71,
+      "Bookname": "22 CHỦ ĐỀ GIAO TIẾP TIẾNG ANH GIỌNG MỸ",
+      "NamXB": 2018,
+      "IDTheLoai": "9",
+      "Author": "  Jimmy Ha, Krista Tran",
+      "Detail": " Tất cả các bài đàm thoại đều có đánh giá mức độ trang trọng theo thứ tự từ thấp đến cao. Điều này giúp bạn biết được một câu nói được sử dụng trong tình huống nào. ",
+      "Image": "assets/Image/22ChuDe.jpg",
+      "Price": 176000,
+      "TheLoai": "Sách Ngoại Ngữ"
+    },
+    {
+      "id": 72,
+      "Bookname": "NGỮ PHÁP CƠ BẢN TIẾNG HÀN",
+      "NamXB": 2018,
+      "IDTheLoai": "9",
+      "Author": "  Lê Huy Khoa",
+      "Detail": " Quyển Ngữ Pháp Cơ Bản Tiếng Hàn là một giáo trình thật sự cần thiết và hữu ích cho bạn đọc với nhiều ưu điểm nổi bật. Đây là quyển sách đầu tiên hệ thống một cách đầy đủ, chính xác và khoa học nhất các kiến thức cơ bản về ngữ pháp tiếng Hàn như danh từ, động từ, tính từ… Sách được phân chia theo chủ đề: mỗi chương đề cập đến một hình thức ngữ pháp cơ bản với các đề mục cụ thể như trợ từ, đại danh từ, động từ và tính từ bất quy tắc, thể chủ động… Mỗi chủ đề ngữ pháp ngoài những trình bày về cấu trúc kèm ví dụ minh họa còn có những lưu ý về cách sử dụng và những bài thực hành luyện tập nhằm nâng cao kiến thức của người học. ",
+      "Image": "assets/Image/NguPhapTiengHan.jpg",
+      "Price": 102000,
+      "TheLoai": "Sách Ngoại Ngữ"
+    },
+    {
+      "id": 73,
+      "Bookname": "TỔ CHỨC CÔNG VIỆC GIA ĐÌNH",
+      "NamXB": 2018,
+      "IDTheLoai": "10",
+      "Author": " Nguyễn Hiến Lê",
+      "Detail": " Tổ Chức Công Việc Gia Đình của tác giả Nguyễn Hiến Lê chủ ý viết cho các bà nội trợ, nhưng bạn trai đã lập gia đình cũng nên đọc nó. Bởi lẽ nếu các ông chồng thấu hiểu được công việc của vợ mình, vợ chồng sẽ dễ dàng hiểu nhau và sẵn sàng chia sẻ cho nhau. Được như vậy hạnh phúc gia đình mới bền lâu. ",
+      "Image": "assets/Image/ToChucGiaDinh.jpg",
+      "Price": 79000,
+      "TheLoai": "Sách Chăm Sóc Gia Đình"
+    },
+    {
+      "id": 74,
+      "Bookname": "NHỮNG QUY TẮC TRONG ĐỜI SỐNG VỢ CHỒNG",
+      "NamXB": 2017,
+      "IDTheLoai": "10",
+      "Author": " Alpha Books",
+      "Detail": " Với 100 quy tắc trong cuộc sống vợ chồng, với cách hành văn tự nhiên, và chân tình các tác giả đã dẫn dắt chúng ta đi từ sự thú vị này đến sự thú vị khác, từ khám phá này đến khám phá khác, dù đôi khi chỉ là những nguyên tắc hết sức đời thường mà chúng ta đã vô tình quên, khiến chúng ta nhận ra rằng đó chính là những quy tắc tất yếu để làm cho cuộc sống gia đình luôn bền vững. ",
+      "Image": "assets/Image/QuyTacVoChong.jpg",
+      "Price": 103000,
+      "TheLoai": "Sách Chăm Sóc Gia Đình"
+    },
+    {
+      "id": 75,
+      "Bookname": "TÌM BÌNH YÊN TRONG GIA ĐÌNH",
+      "NamXB": 2018,
+      "IDTheLoai": "10",
+      "Author": " Thích Nhất Hạnh",
+      "Detail": " Nếu mình không thay đổi những tập khí của mình thì cho dù có cưới bao nhiêu người đi nữa mình cũng khổ đau. Vì vậy, cùng với sự thực tập, mình luôn luôn trở về với giây phút hiện tại, nhận diện và trân quý những gì mình đang có để nuôi lớn hạnh phúc, và đồng thời chuyển hóa những tập khí trong mình. ",
+      "Image": "assets/Image/TimBinhYen.jpg",
+      "Price": 62000,
+      "TheLoai": "Sách Chăm Sóc Gia Đình"
+    },
+    {
+      "id": 76,
+      "Bookname": "GIA ĐÌNH THẾ HỆ MỚI - CHO CON",
+      "NamXB": 2018,
+      "IDTheLoai": "10",
+      "Author": " Nhiều Tác Giả",
+      "Detail": " Nếu lời yêu thương được nói ra, cô gái trẻ sẽ không từ chối một sinh linh đang cựa quậy trong lòng mình. Nếu lời yêu thương được nói ra, người mẹ mất con sẽ bớt những giày vò hàng đêm và niềm hy vọng mới sẽ nhen nhóm. Nếu lời yêu thương được nói ra, nỗi trăn trở lo lắng của mẹ sẽ biến thành động lực cho con, để trái tim mẹ bớt đau đớn trước lúc xa đời. Và tiếng gọi CON với trọn nghĩa thiêng liêng, không chỉ dành riêng cho đứa con mẹ rứt ruột sinh ra, mà còn là niềm thương của mẹ của cha gửi đến những tình yêu đặc biệt khác - là con rể, con dâu, con riêng của chồng, cả những đứa con cút côi đang sinh tồn đâu đó. ",
+      "Image": "assets/Image/GiaDinhTheHeMoi.jpg",
+      "Price": 50000,
+      "TheLoai": "Sách Chăm Sóc Gia Đình"
+    },
+    {
+      "id": 77,
+      "Bookname": "EM ĐỒNG Ý LY HÔN",
+      "NamXB": 2016,
+      "IDTheLoai": "10",
+      "Author": " Chúy",
+      "Detail": " Trong mỗi gia đình, có một thứ bắt buộc phải có nhưng chẳng bao giờ mong dùng đến đó là cái tủ thuốc. Vậy thì hãy giữ cuốn sách này như cái tủ thuốc treo trên tường, như một lời nhắc nhở, mong không bao giờ phải dùng đến hoặc có lỡ trớ trêu rơi vào thì cũng biết cách để vượt qua. Cuộc đời mà, ai biết trước được chữ ngờ đâu… ",
+      "Image": "assets/Image/EmDongYLyHon.jpg",
+      "Price": 52000,
+      "TheLoai": "Sách Chăm Sóc Gia Đình"
+    },
+    {
+      "id": 78,
+      "Bookname": "GIẢI MÃ ĐÀN ÔNG",
+      "NamXB": 2017,
+      "IDTheLoai": "10",
+      "Author": " Barbara De Angelis",
+      "Detail": " Bạn am hiểu đàn ông và chuyện tình cảm đến mức nào? Quyển sách này sẽ mang đến một luồng sáng mới, soi rọi vào những bí ẩn của nam giới mà từ trước đến nay vẫn thường khiến phụ nữ phải đau đầu. Tất cả những kiến thức hữu ích của Tiến sĩ Barbara De Angelis sẽ góp phần làm cho mối quan hệ của bạn với một nửa yêu thương của mình ngày càng tốt đẹp hơn. ",
+      "Image": "assets/Image/GiaiMaDanOng.jpg",
+      "Price": 70000,
+      "TheLoai": "Sách Chăm Sóc Gia Đình"
+    },
+    {
+      "id": 79,
+      "Bookname": "LỜI NÓI DỐI VÔ HẠI",
+      "NamXB": 2018,
+      "IDTheLoai": "10",
+      "Author": " Susan Shapiro Barash",
+      "Detail": " Chân thật và táo bạo. Susan Shapiro Barash nhanh chóng trở thành tác giả khám phá vấn đề quan trọng liên quan tới phụ nữ - những vấn đề mà họ vẫn ngại đề cập tới cho đến tận bây giờ. ",
+      "Image": "assets/Image/LoiNoiDoiVoHai.jpg",
+      "Price": 43000,
+      "TheLoai": "Sách Chăm Sóc Gia Đình"
+    },
+    {
+      "id": 80,
+      "Bookname": "PHONG THỦY TRONG TÌNH YÊU",
+      "NamXB": 2018,
+      "IDTheLoai": "10",
+      "Author": "  Lillian Too",
+      "Detail": " Tất cả những điều cấm kị cũng như các biện pháp hóa giải được nêu trong cuốn sách đều kèm theo việc giải thích rõ lý do. Để đạt được hiệu quả tốt nhất, bạn nên làm theo những hướng dẫn trong sách và đừng chờ cho đến lúc điều không hay xảy ra. Hãy vận dụng các giải pháp phong thủy và đón nhận những may mắn đến với bạn. Hãy xem phong thủy như một lĩnh vực đầy bí ẩn đang chờ đợi sự khám phá của mỗi chúng ta, và bạn hoàn toàn có thể tự mình cải thiện tình trạng phong thủy cũng như làm cho cuộc sống tốt đẹp hơn bằng chính sự hiểu biết của mình. ",
+      "Image": "assets/Image/PhongThuyTrongTinhYeu.jpg",
+      "Price": 67000,
+      "TheLoai": "Sách Chăm Sóc Gia Đình"
+    }
+  ],
+  "listSPP": [
+    {
+      "NameTheLoai": "Sách Tin Học",
+      "IDTheLoai": "1",
+      "id": 1
+    },
+    {
+      "NameTheLoai": "Sách Văn Học",
+      "IDTheLoai": "2",
+      "id": 2
+    },
+    {
+      "NameTheLoai": "Sách Tâm Lý và Giói Tính",
+      "IDTheLoai": "3",
+      "id": 3
+    },
+    {
+      "NameTheLoai": "Sách Thiếu Nhi",
+      "IDTheLoai": "4",
+      "id": 4
+    },
+    {
+      "NameTheLoai": "Sách Du Lịch",
+      "IDTheLoai": "5",
+      "id": 5
+    },
+    {
+      "NameTheLoai": "Sách Kỹ Năng",
+      "IDTheLoai": "6",
+      "id": 6
+    },
+    {
+      "NameTheLoai": "Sách Tôn Giáo",
+      "IDTheLoai": "7",
+      "id": 7
+    },
+    {
+      "NameTheLoai": "Sách Chăn Nuôi",
+      "IDTheLoai": "8",
+      "id": 8
+    },
+    {
+      "NameTheLoai": "Sách Ngoại Ngữ",
+      "IDTheLoai": "9",
+      "id": 9
+    },
+    {
+      "NameTheLoai": "Sách Chăm Sóc Gia Đình",
+      "IDTheLoai": "10",
+      "id": 10
+    }
+  ],
+  "pay": [
+    
+  ]
+}

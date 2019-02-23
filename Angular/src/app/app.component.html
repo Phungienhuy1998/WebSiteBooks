@@ -1,0 +1,110 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+
+<img src="assets/img/icon.png" class="img-fluid" alt="Responsive image" width="100%">
+
+
+<div class="container">
+  <div class="row" style="margin-bottom: 20px">
+    <div class="col-sm-5">
+     
+    </div>
+    <div class="col-sm-4 offset-sm-3">
+      <span class="btn btn-light" routerLink="/trangchu" (click)='onSearch()'>Trang Chủ </span> |
+      <span class="btn btn-light" routerLink="/dangnhap" (click)='ofSearch()'> Đăng nhập </span>
+    </div>
+
+  </div>
+</div>
+
+<!-- Search -->
+<div class="navbar justify-content-center " style=" margin-top:-20px" *ngIf='of'>
+  <div class="row">
+    <div class="col-sm-9">
+      <input *ngIf="of" onkeyup="SeggestSearch(event, this, 0)" [(ngModel)]='search' autocomplete="off" class="form-control mr-sm-2" type="search" placeholder="Bạn Cần Tìm Gì ... " aria-label="Search" style="width: 500px; height: 30px">
+      <ul class="wrap-suggestion" ng-style="{(this.listSearchProduct.length > 0) ? '' : 'display: none' }">
+        <li *ngFor="let p of listSearchProduct">
+          <div class="card">
+            <div class="row" style="background:aliceblue">
+              <div class="col-sm-3">
+                <img src="{{p.Image}}" width="75" height="100" alt="Card image cap">
+              </div>
+              <div class="col-sm-9" style="margin-top: 10px">
+                <a  [routerLink]="['/trangchu',p.TheLoai,p.id]"> {{p.Bookname}} </a>
+                <p class="card-text"> <span class="badge badge-warning"> {{p.Price}} Đồng. </span> </p>
+              </div>
+            </div>
+
+          </div>
+        </li>
+      </ul>
+
+      <!--Giỏ Hàng-->
+    </div>
+    <div class="col-sm-3" >
+      <button type="button" class="btn btn-outline-danger" data-toggle="modal" data-placement="bottom"
+              style="font-size:15px; margin-left: 30px" data-target=".bd-example-modal-lg"  >
+        <i class="fa fa-shopping-bag" style="font-size:20px"> </i>
+        Giỏ Hàng 
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<!--Menu Dưới-->
+<div class="container">
+  <div class="jumbotron" style="margin-bottom: 10px">
+    <h3 class="display-4" style="color: red"> Fahasa.Com </h3>
+    <hr class="my-4">
+    <div class="row">
+      <div class="col-sm-3">
+        <div id="map" style="width:10px;height:10px;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15678.068182685434!2d106.63508!3d10.771655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x798819bdcd0522b0!2sITC+HCM-City!5e0!3m2!1svi!2sus!4v1542719235502"
+                  width="290" height="215" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="row justify-content-md-center">
+          <p class="lead" style="font-size: 50px">
+            <a href="http://www.facebook.com" target="_blank"> <i class="fab fa-facebook-square" style="margin-right:10px"></i> </a>
+            <a href="http://www.instagram.com/" target="_blank"> <i class="fab fa-instagram" style="margin-right:10px"></i> </a>
+            <a href="http://www.youtube.com/" target="_blank"> <i class="fab fa-youtube-square" style="margin-right:10px"></i> </a>
+            <a href="https://www.tumblr.com/" target="_blank"> <i class="fab fa-tumblr-square" style="margin-right:10px"></i> </a>
+            <a href="https://twitter.com/?lang=vi" target="_blank"> <i class="fab fa-twitter-square" style="margin-right:10px"></i> </a>
+            <a href="https://www.pinterest.com/" target="_blank" > <i class="fab fa-pinterest-square" style="margin-right:10px"></i> </a>
+          </p>
+          <p class="lead">
+            <a href="http://play.google.com/store/apps/details?id=com.fahasa.android.fahasa&hl=vi" target="_blank"><img src="assets/img/Google_play.png" width="30%" style="margin-left:102px" /> </a>
+            <a href="http://itunes.apple.com/us/app/fahasa-th%E1%BA%BF-gi%E1%BB%9Bi-trong-t%E1%BA%A7m-tay/id1227597830?mt=8" target="_blank"><img src="assets/img/App_Store.png" width="30%" /> </a>
+          </p>
+          <p class="lead" style="font-size: 15px; text-align: center">
+            <b> Lầu 4, 12 Trịnh Đình Thảo </b> <br/>
+            <b> Phường Hòa Thạnh - Quận Tân Phú  - TP HCM </b>
+          </p>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <p class="lead">
+          <i class="fas fa-map-marker-alt" style="font-size: 30px"> </i> <a style="margin-left:13px; font-size:15px"> Địa Chỉ: 12 Trịnh Đình Thảo, Q.Tân Phú , TP.HCM </a>
+        </p>
+        <hr />
+        <p class="lead">
+          <i class="fas fa-phone" style="font-size: 30px"> </i> <a style="margin-left:05px; font-size:15px"> 096.787.4902 </a>
+        </p>
+        <hr />
+        <p class="lead">
+          <i class="far fa-envelope" style="font-size: 30px"></i> <a style="margin-left:05px; font-size:15px"> Phunglienhuy1810@gmail.com </a>
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
